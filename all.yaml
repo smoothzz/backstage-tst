@@ -6,3 +6,4 @@ metadata:
 spec:
   targets:
     - ./apis/api.yaml
+    - ./apis/api2.yaml

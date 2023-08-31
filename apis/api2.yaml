@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: rundeck-project-lalala
-  namespace: stone_payments
+  namespace: stone-payments
   description: Thiago2 Lookup
   tags:
     - java

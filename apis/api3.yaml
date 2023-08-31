@@ -11,7 +11,7 @@ metadata:
       title: Examples Thiago3
       icon: user2
   annotations:
-    oculus.stone.tech/configured: 'true'
+    oculus.stone.tech/itisnot: 'true'
 spec:
   type: service
   lifecycle: experimental

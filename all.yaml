@@ -7,3 +7,4 @@ spec:
   targets:
     - ./apis/api.yaml
     - ./apis/api2.yaml
+    - ./apis/api3.yaml

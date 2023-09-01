@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: thiago-teste2
+  namespace: smoothzz
+  description: Thiago2 Lookup
+  tags:
+    - java
+    - data
+  links:
+    - url: https://example.com/user
+      title: Examples Thiago2
+      icon: user2
+  annotations:
+    oculus.stone.tech/configured: 'true'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-a
+  system: artist-engagement-portal
+  dependsOn: ['resource:artists-db']
+  apiConsumedBy: ['component:www-artist']

@@ -10,3 +10,4 @@ spec:
     - ./apis/api3.yaml
     - ./apis/api5.yaml
     - ./apis/api10.yaml
+    - ./apis/api50.yaml
